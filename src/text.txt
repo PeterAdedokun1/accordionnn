@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+ background-image: linear-gradient(to right,hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ min-height: 100vh;
+}
+
+.container{
+  background-color: white;
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  z-index: 9999;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+}
+.img-container{
+  left: 0;
+  right: 0;
+  height: 500px;
+  z-index: 1;
+}
+.img-container :first-child{
+  position: absolute; 
+  left: -120px;
+  top: 190px;
+}
+.img-container .img2{
+   /* position: relative;
+  left: -120px;
+  right: -30px;
+  top: 50px;
+  z-index: -1; */
+
+}
+.accord{
+  display: flex;
+  justify-content: left;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  align-items: center;
+  margin: 20px 0;
+}
+.accordion{
+  max-width: 55%;
+  /* margin-top: -60px; */
+  line-height: 2.5;
+}
+h1{
+  font-weight: 900;
+  font-size: 30px;
+}
+.accord-section{
+  width: 340px;
+}
+.section{
+  display: flex;
+  justify-content: space-between;
+ color: hsl(237, 12%, 33%);
+ cursor: pointer;
+
+}
+.section:hover{
+  color: hsl(14, 88%, 65%);
+}
+.text{
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+@media screen  and (max-width: 768px){
+    .container{
+      display: flex;
+
+      flex-wrap: wrap;
+      /* width: fit-content; */
+      margin: 0 auto;
+      justify-content: center;
+      max-width: 500px;
+      padding: 0px;
+      line-height: 0;
+    }
+    .accordion{
+      margin-top: 100px;
+    }
+    .img-container{
+  /* left: 0; */
+  /* right: 0; */
+  /* height: 500px; */
+  height: 0;
+  z-index: 1;
+  margin-top: -200px;
+
+}
+.img-container :first-child{
+  position: absolute; 
+  left: 70px;
+  top: -70px;
+  /* display: none/; */
+}
+.img-container .img2{
+   position: relative;
+  /* left: -120px; */
+  right: -140px;
+  top: -160px;
+  z-index: -1;
+  /* margin: 0 auto; */
+  width: 180px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+}
