@@ -25,8 +25,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-- LinkedIn - [@yourusername](https://www.linkedin.com/in/peter-adedokun-111966231/)
+- Twitter - [peterAdedokun7](https://www.twitter.com/yourusername)
+- LinkedIn - [Peter Adedokun](https://www.linkedin.com/in/peter-adedokun-111966231/)
 
